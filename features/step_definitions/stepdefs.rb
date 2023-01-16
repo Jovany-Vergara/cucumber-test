@@ -5,8 +5,8 @@ module FridayStepHelper
 end
 World FridayStepHelper
 
-Given("today is Sunday") do
-  @today = 'Sunday'
+Given("today is Friday") do
+  @today = 'Friday'
 end
 
 When("I ask whether it's Friday yet") do
